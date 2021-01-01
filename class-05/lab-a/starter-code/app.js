@@ -74,12 +74,11 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 
 
     var returnArray = [
-       sum2[0],
-       product2[0],
-       "4 and 7 and 5 sum to 16.",
-       "The product of 4 and 7 and 5 is 140.",
-
-    ];
+        sum2[0],
+        product2[0],
+        a + ' and ' + b + ' and ' + c +  ' sum to ' + sum2[0]  + '.',
+        'The product of ' + a + ' and ' +b + ' and '+ c +' is ' + product2[0] + '.' ,
+     ];
 
     return returnArray;
 
