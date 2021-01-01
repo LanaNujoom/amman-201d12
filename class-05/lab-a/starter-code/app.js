@@ -141,8 +141,7 @@ function multiplyArray(multArr) { //eslint-disable-line
 
     var returnArray = [
         product2[0],
-        "The numbers 2,3,4 have a product of 24.",
-
+        'The numbers ' + multArr +  ' have a product of ' + product2[0] + '.'
     ];
 
     return returnArray;
