@@ -65,8 +65,13 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     var sum1 = sum(a,b);
     var sum2 = sum(sum1[0],c);
+    console.log('sum of 2 values'+sum1[0]);
+    console.log('sum of 3 values'+sum2[0]);
     var product1 = multiply(a,b);
     var product2 = multiply(product1[0],c);
+    console.log('multiply of 2 values'+product1[0]);
+    console.log('multiply of 3 values'+product2[0]);
+
 
     var returnArray = [
        sum2[0],
